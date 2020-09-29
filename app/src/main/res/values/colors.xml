@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="color_white">#ffffff</color>
+    <color name="color_222b64">#222b64</color>
+    <color name="color_f3f5f7">#f3f5f7</color>
+    <color name="color_404252">#404252</color>
+    <color name="color_f1f1f2">#f1f1f2</color>
+    <color name="color_2f3143">#2f3143</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_f0f0f0">#f0f0f0</color>
+    <color name="color_2f3538">#2f3538</color>
+    <color name="color_62c2ff">#62c2ff</color>
+    <color name="color_312f35">#312f35</color>
+    <color name="color_3b3b3b">#3b3b3b</color>
+    <color name="color_b3b5b6">#b3b5b6</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="color_cfd4d6">#cfd4d6</color>
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_919da4">#919da4</color>
+    <color name="color_393939">#393939</color>
+    <color name="color_132439">#132439</color>
+    <color name="color_3c4449">#3c4449</color>
+    <color name="color_4c312f35">#4c312f35</color>
+</resources>

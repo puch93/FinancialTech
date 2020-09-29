@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/drawer_all_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:orientation="horizontal"
+        tools:background="@color/color_cccccc">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="170"
+            android:background="@color/color_white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/area_login_n_01"
+                android:layout_width="match_parent"
+                android:layout_height="80.3dp"
+                android:background="@color/color_222b64"
+                android:gravity="bottom"
+                android:paddingLeft="19.7dp"
+                android:orientation="vertical"
+                android:paddingBottom="17.7dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:text="로그인"
+                        android:textColor="@color/color_white"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="이 필요합니다"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/color_white"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_height="1dp"
+                    android:background="@color/color_white"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/area_login_y_01"
+                android:layout_width="match_parent"
+                android:layout_height="80.3dp"
+                android:background="@color/color_222b64"
+                android:gravity="bottom"
+                android:paddingLeft="19.7dp"
+                android:orientation="vertical"
+                android:paddingBottom="16.3dp">
+
+                <TextView
+                    android:id="@+id/top_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:textColor="#80ffffff"
+                    android:includeFontPadding="false"
+                    android:layout_marginBottom="6.7dp"
+                    tools:text="coreplanet@naver.com"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/top_nick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:text="코플이"
+                        android:maxEms="6"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textColor="@color/color_white"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="님 환영합니다"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/color_white"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/area_login_n_02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4.05dp"
+                android:paddingBottom="14.65dp"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="17.05"/>
+                <FrameLayout
+                    android:id="@+id/btn_drawer_menu_login"
+                    android:layout_width="0dp"
+                    android:layout_weight="85.3"
+                    android:layout_height="wrap_content"
+                    android:padding="7.65dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/slide_menu_01"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="20.3"/>
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:layout_weight="28"
+                                android:src="@drawable/slide_icon_01"/>
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="21.7"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:layout_marginTop="6.3dp"
+                            android:includeFontPadding="false"
+                            android:textColor="#99222b64"
+                            android:textStyle="bold"
+                            android:text="로그인"
+                            />
+                    </LinearLayout>
+                    
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/btn_drawer_menu_join"
+                    android:layout_width="0dp"
+                    android:layout_weight="85.3"
+                    android:layout_height="wrap_content"
+                    android:padding="7.65dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/slide_menu_01"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="20.3"/>
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:layout_weight="28"
+                                android:src="@drawable/slide_icon_02"/>
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="21.7"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:layout_marginTop="6.3dp"
+                            android:includeFontPadding="false"
+                            android:textColor="#99222b64"
+                            android:textStyle="bold"
+                            android:text="회원가입"
+                            />
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/btn_drawer_menu_consult_01"
+                    android:layout_width="0dp"
+                    android:layout_weight="85.3"
+                    android:layout_height="wrap_content"
+                    android:padding="7.65dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/slide_menu_02"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="20.3"/>
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:layout_weight="28"
+                                android:src="@drawable/slide_icon_03"/>
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="21.7"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:layout_marginTop="6.3dp"
+                            android:includeFontPadding="false"
+                            android:textColor="@color/color_white"
+                            android:textStyle="bold"
+                            android:text="상담신청"
+                            />
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="17.05"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/area_login_y_02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4.05dp"
+                android:paddingBottom="14.65dp"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="17.05"/>
+                <FrameLayout
+                    android:id="@+id/btn_drawer_menu_logout"
+                    android:layout_width="0dp"
+                    android:layout_weight="85.3"
+                    android:layout_height="wrap_content"
+                    android:padding="7.65dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/slide_menu_01"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="20.3"/>
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:layout_weight="28"
+                                android:src="@drawable/slide_icon_04"/>
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="21.7"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:layout_marginTop="6.3dp"
+                            android:includeFontPadding="false"
+                            android:textColor="#99222b64"
+                            android:textStyle="bold"
+                            android:text="로그아웃"
+                            />
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/btn_drawer_menu_my_info"
+                    android:layout_width="0dp"
+                    android:layout_weight="85.3"
+                    android:layout_height="wrap_content"
+                    android:padding="7.65dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/slide_menu_01"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="20.3"/>
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:layout_weight="28"
+                                android:src="@drawable/slide_icon_05"/>
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="21.7"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:layout_marginTop="6.3dp"
+                            android:includeFontPadding="false"
+                            android:textColor="#99222b64"
+                            android:textStyle="bold"
+                            android:text="내 정보"
+                            />
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/btn_drawer_menu_consult_02"
+                    android:layout_width="0dp"
+                    android:layout_weight="85.3"
+                    android:layout_height="wrap_content"
+                    android:padding="7.65dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/slide_menu_02"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="20.3"/>
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:layout_weight="28"
+                                android:src="@drawable/slide_icon_03"/>
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="21.7"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:layout_marginTop="6.3dp"
+                            android:includeFontPadding="false"
+                            android:textColor="@color/color_white"
+                            android:textStyle="bold"
+                            android:text="상담신청"
+                            />
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="17.05"/>
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_f2f2f2" />
+
+
+            <TextView
+                android:id="@+id/btn_drawer_menu_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:includeFontPadding="false"
+                android:paddingTop="17dp"
+                android:paddingLeft="20.7dp"
+                android:paddingBottom="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_2f3538"
+                android:text="재테크 뉴스"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_f2f2f2" />
+
+
+            <TextView
+                android:id="@+id/btn_drawer_menu_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:includeFontPadding="false"
+                android:paddingTop="17dp"
+                android:paddingLeft="20.7dp"
+                android:paddingBottom="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_2f3538"
+                android:text="재테크 정보"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_f2f2f2" />
+
+
+            <TextView
+                android:id="@+id/btn_drawer_menu_case"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:includeFontPadding="false"
+                android:paddingTop="17dp"
+                android:paddingLeft="20.7dp"
+                android:paddingBottom="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_2f3538"
+                android:text="성공 사례"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_f2f2f2" />
+
+
+            <TextView
+                android:id="@+id/btn_drawer_menu_wise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:includeFontPadding="false"
+                android:paddingTop="17dp"
+                android:paddingLeft="20.7dp"
+                android:paddingBottom="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_2f3538"
+                android:text="성공 명언"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_f2f2f2" />
+
+
+            <TextView
+                android:id="@+id/btn_drawer_menu_humor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:includeFontPadding="false"
+                android:paddingTop="17dp"
+                android:paddingLeft="20.7dp"
+                android:paddingBottom="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_2f3538"
+                android:text="힐링 유머"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_f2f2f2" />
+
+
+            <TextView
+                android:id="@+id/btn_drawer_menu_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:includeFontPadding="false"
+                android:paddingTop="17dp"
+                android:paddingLeft="20.7dp"
+                android:paddingBottom="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_2f3538"
+                android:text="공지사항"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_f2f2f2" />
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

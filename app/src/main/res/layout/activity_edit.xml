@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_white"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:paddingRight="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/btn_back" />
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_312f35"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="내 정보 수정" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_f0f0f0" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="@color/color_f7f7f7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="19.3dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="이메일"
+                android:textColor="@color/color_393939"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="6.7dp"
+                android:enabled="false"
+                android:background="@drawable/sel_round_background_stroke"
+                android:hint="이메일 주소 입력"
+                android:paddingLeft="15.7dp"
+                android:textColor="@color/color_393939"
+                android:singleLine="true"
+                android:textColorHint="@color/color_4c312f35"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="휴대폰 번호"
+                android:layout_marginTop="15.7dp"
+                android:textColor="@color/color_393939"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="6.7dp"
+                android:background="@drawable/sel_round_background_stroke"
+                android:hint="휴대폰 번호 입력 ( - 없이 )"
+                android:paddingLeft="15.7dp"
+                android:enabled="false"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/color_393939"
+                android:textColorHint="@color/color_4c312f35"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.7dp"
+                android:includeFontPadding="false"
+                android:text="비밀번호 변경 ( 영문, 숫자 조합 8~16자리 )"
+                android:textColor="@color/color_393939"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/pw"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="6.7dp"
+                android:background="@drawable/sel_round_background_stroke"
+                android:hint="영문, 숫자 조합 8~16자리"
+                android:paddingLeft="15.7dp"
+                android:inputType="textPassword"
+                android:textColor="@color/color_393939"
+                android:singleLine="true"
+                android:textColorHint="@color/color_4c312f35"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/warning_pw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_marginTop="6.3dp"
+                android:visibility="invisible"
+                android:text="영문, 숫자 조합 8~16자리이어야 합니다"
+                android:textColor="#ff7077"
+                android:includeFontPadding="false"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="비밀번호 변경 확인"
+                android:textColor="@color/color_393939"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/pw_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="textPassword"
+                android:layout_marginTop="6.7dp"
+                android:background="@drawable/sel_round_background_stroke"
+                android:hint="비밀번호 확인"
+                android:paddingLeft="15.7dp"
+                android:textColor="@color/color_393939"
+                android:textColorHint="@color/color_4c312f35"
+                android:singleLine="true"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/warning_pw_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_marginTop="6.3dp"
+                android:text="비밀번호가 일치하지 않습니다"
+                android:textColor="#ff7077"
+                android:includeFontPadding="false"
+                android:visibility="invisible"
+                android:textSize="12dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="이름"
+                android:textColor="@color/color_393939"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="6.7dp"
+                android:background="@drawable/sel_round_background_stroke"
+                android:hint="실명 입력"
+                android:paddingLeft="15.7dp"
+                android:singleLine="true"
+                android:textColor="@color/color_393939"
+                android:textColorHint="@color/color_4c312f35"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="닉네임"
+                android:layout_marginTop="15.7dp"
+                android:textColor="@color/color_393939"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/nick"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="6.7dp"
+                android:background="@drawable/sel_round_background_stroke"
+                android:hint="닉네임 입력"
+                android:paddingLeft="15.7dp"
+                android:singleLine="true"
+                android:textColor="@color/color_393939"
+                android:textColorHint="@color/color_4c312f35"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/color_62c2ff"
+            android:gravity="center"
+            android:text="수정 완료 "
+           android:textColor="@color/color_white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</layout>

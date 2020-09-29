@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="board_list">
+        <item>사례</item>
+        <item>명언</item>
+        <item>유머</item>
+    </string-array>
+</resources>

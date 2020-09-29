@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "62991748142",
+    "firebase_url": "https://financialtech-435d3.firebaseio.com",
+    "project_id": "financialtech-435d3",
+    "storage_bucket": "financialtech-435d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62991748142:android:17cc894c3a7b0f2915e3bf",
+        "android_client_info": {
+          "package_name": "kr.co.core.financial_tech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62991748142-cajr4bbmrb8hmq2ftf96j62hhggn3eh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEzMXy7jUEzzLaF8ceRFj9C-xCY-Bi1pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62991748142-cajr4bbmrb8hmq2ftf96j62hhggn3eh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

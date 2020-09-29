@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="139"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_done"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="37dp"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:textColor="@color/color_132439"
+            android:text="회원가입을"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="@color/color_62c2ff"
+                android:textStyle="bold"
+                android:text="완료"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="@color/color_132439"
+                android:text="하였습니다"
+                />
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="171.3"/>
+
+
+        <TextView
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="확인"
+            android:background="@color/color_62c2ff"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</layout>
